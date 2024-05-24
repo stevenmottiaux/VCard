@@ -1,0 +1,82 @@
+@font-face {
+    font-family: PoetsenOne-Regular;
+    src: url(./fonts/PoetsenOne-Regular.ttf);
+  }
+
+body {
+display: flex;
+height: 100vh;
+width: auto;
+justify-content: center;
+align-items: center;
+font-family: PoetsenOne-Regular;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+#vcard {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/images/background.png)
+}
+
+
+
+#name {
+    margin-bottom: 0;
+}
+
+#socials-links {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#socials-title {
+    text-decoration: underline;
+    
+}
+
+a:link {
+   color: inherit;
+   font-family: inherit;
+  }
+
+a:visited {
+    color: inherit;
+    font-family: inherit;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.fa-brands {
+    text-align: center;
+    font-size: 45px;
+}
+
+#picture {
+    display: block;
+    height: 108px;
+    width: 108px;   
+    position: absolute;
+    align-self: flex-end;
+    margin-top: 5px;
+    margin-right: 5px;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+hr {
+    border: 3px solid #333;
+    color: #333;
+    text-align: center;
+    height: 1px;
+    width: 30%;
+  }
